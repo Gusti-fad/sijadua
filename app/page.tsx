@@ -36,7 +36,7 @@ import ikonkomen from '../public/ikonkomen.svg'
 
 const Home = () => {
   return (
-    <div className="relative bg-black min-h-screen !scroll-smooth">
+    <div className="relative bg-black min-h-screen">
       
       <nav className="bg-white border-gray-200 dark:bg-black ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -74,16 +74,16 @@ const Home = () => {
             </div>
             <ul className="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-black dark:border-gray-700">
               <li>
-                <a href="#" className="block py-2 px-3 text-white rounded lg:bg-transparent hoverunderline lg:p-0" aria-current="page">Home</a>
+                <a href="#home" className="block py-2 px-3 text-white rounded lg:bg-transparent hoverunderline lg:p-0" aria-current="page">Home</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white dark:hover:bg-gray-700  dark:border-gray-700">About</a>
+                <a href="#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white dark:hover:bg-gray-700  dark:border-gray-700">About</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Journal</a>
+                <a href="#journal" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Journal</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Member</a>
+                <a href="#member" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Member</a>
               </li>
               <li>
                 <a href="#contact" className=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700   dark:border-gray-700">Contact</a>
@@ -447,11 +447,23 @@ const Home = () => {
 
         <div id='contact' className='mx-[10%] py-[5%]'>
           <div className='rounded-3xl py-[10%] w-full bg-zinc-500 relative'>
-          <div className='text-white font-inter font-semibold absolute top-[55%] left-[19%] transform -translate-x-1/2 -translate-y-1/2' style={{ fontSize: '2.5vw' }}>
+          <div className='text-white font-inter font-semibold absolute top-[35%] left-[5%] ' style={{ fontSize: '2.5vw' }}>
                 sija2acc@gmail.com
             </div>
-          <div className='text-white font-inter font-semibold absolute top-[80%] left-[90%] transform -translate-x-1/2 -translate-y-1/2' style={{ fontSize: '1vw' }}>
+          <div className='text-white font-inter font-semibold absolute top-[67%] left-[72%]' style={{ fontSize: '1.35vw' }}>
                 Created with stress. - TGUT
+            </div>
+          <div className='text-white font-inter font-inter absolute top-[20%] left-[84%]' style={{ fontSize: '1vw' }}>
+                ©2023 Informatics
+            </div>
+          <div className='text-white font-inter font-inter absolute top-[67%] left-[5%] border-[0.5px] rounded-full px-[1.3%] py-[0.2%] border-white' style={{ fontSize: '1vw' }}>
+                <a href="">Instagram</a>
+            </div>
+          <div className='text-white font-inter font-inter absolute top-[67%] left-[14%] border-[0.5px] rounded-full px-[1.3%] py-[0.2%] border-white' style={{ fontSize: '1vw' }}>
+                <a href="">Youtube</a>
+            </div>
+          <div className='text-white font-inter font-inter absolute top-[67%] left-[22%] border-[0.5px] rounded-full px-[1.3%] py-[0.2%] border-white' style={{ fontSize: '1vw' }}>
+                <a href="">Tiktok</a>
             </div>
           </div>      
         </div>
