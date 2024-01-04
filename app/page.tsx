@@ -6,9 +6,20 @@ import learn from '../public/learn.svg'
 import journal from '../public/journal.svg'
 import journal1 from '../public/journal1.jpeg'
 import journal2 from '../public/journal2.jpeg'
+import journal3 from '../public/industri.jpeg'
+import journal4 from '../public/bandung.jpeg'
+import journal5 from '../public/bualia.jpg'
+import journal6 from '../public/jape.jpg'
 import more from '../public/more.svg'
 import member from '../public/member.svg'
 import gusti from '../public/gusti.jpeg'
+import uzan from '../public/uzan.jpeg'
+import hilmi from '../public/hilmi.jpeg'
+import hex from '../public/hex.jpeg'
+import nopek from '../public/nopek.jpeg'
+import bintang from '../public/bintang.jpeg'
+import memet from '../public/memet.jpeg'
+import fajar from '../public/fajar.jpeg'
 import gusticredit from '../public/nishimiya.jpeg'
 import uzancredit from '../public/uzancredit.jpeg'
 import credit from '../public/credit.svg'
@@ -25,40 +36,34 @@ import ikonkomen from '../public/ikonkomen.svg'
 
 const Home = () => {
   return (
-    <div className="relative bg-black min-h-screen">
+    <div className="relative bg-black min-h-screen !scroll-smooth">
       
-      <nav className="bg-white border-gray-200 dark:bg-black">
+      <nav className="bg-white border-gray-200 dark:bg-black ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <Image src={logo} width={33} height={27} alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <Image src={logo} width={33} height={25} alt="logo sija" />
+            <span className="self-center text-2xl font-light whitespace-nowrap dark:text-white">INFORMATICS 025</span>
         </a>
         <div className="flex md:order-2">
-          <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
-            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-            </svg>
-            <span className="sr-only">Search</span>
-          </button>
-          <div className="relative hidden md:block">
+          <div className="relative hidden lg:block">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
               <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
               </svg>
               <span className="sr-only">Search icon</span>
             </div>
-            <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+            <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-black dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
             </input>
           </div>
-          <button data-collapse-toggle="navbar-search" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+          <button data-collapse-toggle="navbar-search" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
               <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
               </svg>
           </button>
         </div>
-          <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
-            <div className="relative mt-3 md:hidden">
+          <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-search">
+            <div className="relative mt-3 lg:hidden">
               <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
@@ -67,15 +72,21 @@ const Home = () => {
               <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
            </input>
             </div>
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-black dark:border-gray-700">
+            <ul className="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-black dark:border-gray-700">
               <li>
-                <a href="#" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+                <a href="#" className="block py-2 px-3 text-white rounded lg:bg-transparent hoverunderline lg:p-0" aria-current="page">Home</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white dark:hover:bg-gray-700  dark:border-gray-700">About</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Journal</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700  dark:border-gray-700">Member</a>
+              </li>
+              <li>
+                <a href="#contact" className=" block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent hoverunderline lg:p-0 dark:text-white  dark:hover:bg-gray-700   dark:border-gray-700">Contact</a>
               </li>
             </ul>
           </div>
@@ -213,48 +224,48 @@ const Home = () => {
 
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 md:w-[98%] h-full">
             <div className="relative h-48 md:h-64"> 
-              <Image src={journal2} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
+              <Image src={journal3} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
             </div>
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-white">Hapet n Atun&apos;s Wedding</div>
+              <div className="font-bold text-xl mb-2 text-white">Visit Industrial</div>
               <p className="text-gray-200 text-base">
-                Joyful journey begins!
+                Ingfo loker mint
               </p>
             </div>
           </div>
 
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 md:w-[98%] h-full">
             <div className="relative h-48 md:h-64"> 
-              <Image src={journal2} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
+              <Image src={journal4} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
             </div>
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-white">Hapet n Atun&apos;s Wedding</div>
+              <div className="font-bold text-xl mb-2 text-white">Road to Bandung</div>
               <p className="text-gray-200 text-base">
-                Joyful journey begins!
+                Barudak shikat
               </p>
             </div>
           </div>
           
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 md:w-[98%] h-full">
             <div className="relative h-48 md:h-64"> 
-              <Image src={journal2} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
+              <Image src={journal5} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
             </div>
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-white">Hapet n Atun&apos;s Wedding</div>
+              <div className="font-bold text-xl mb-2 text-white">Mrs. Alia House</div>
               <p className="text-gray-200 text-base">
-                Joyful journey begins!
+                Our Beloved Mom
               </p>
             </div>
           </div>
 
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 md:w-[98%] h-full">
             <div className="relative h-48 md:h-64"> 
-              <Image src={journal2} alt="learn" className='w-full h-full object-cover rounded-t-2xl' />
+              <Image src={journal6} alt="learn" className='w-[full] h-full object-cover rounded-t-2xl' />
             </div>
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-white">Hapet n Atun&apos;s Wedding</div>
+              <div className="font-bold text-xl mb-2 text-white">Japheme Futsal Cup</div>
               <p className="text-gray-200 text-base">
-                Joyful journey begins!
+                Minimal Final!
               </p>
             </div>
           </div>
@@ -271,66 +282,86 @@ const Home = () => {
       <div id='member' className='px-[7%]'>
         <Image src={member} alt="member" className='w-[18%] relative pt-[5%] pb-[5%]' /> 
         <div className='items-center center w-auto justify-center'> 
-        <div className='md:flex md:flex-wrap justify-center pb-[4%] px-[6%]'>
+        <div className=' flex flex-wrap justify-center pb-[4%] px-[6%]'>
           <div className='text-white font-inter pt-10 md:items-center md:text-start md:max-w-sm md:mr-6 '>
             <div className='pb-[4%] font-semibold text-center md:text-start text-lg md:text-xl pr-5'> We are passionate about creating visually stunning and functional solutions that communicate effectively.</div>
             <div className='hidden md:block font-semibold text-sm pt-12'>WE ARE <br /> PASSIONATE</div>
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
               <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Gusti Fadhilah Ahmad</div>
+              <p className="text-gray-200 text-[0.5rem]">Software Developer</p>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
-              <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={uzan} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
-            </div>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
-              <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
-            </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Fauzan Rafif Rochman</div>
+              <p className="text-gray-200 text-[0.5rem]">UI / UX Designer</p>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
-              <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={hilmi} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
-            </div>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
-              <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
-            </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Hilmy Khairul Pratama</div>
+              <p className="text-gray-200 text-[0.5rem]">Cyber Security</p>
             </div>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500  md:w-48  md:h-64 md:mr-3 md:mt-2">
-            <div className="relative h-48 md:h-40"> 
-              <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={hex} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl md:text-sm mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 md:text-xs text-base">Software Developer</p>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Iqbal Ahnaf</div>
+              <p className="text-gray-200 text-[0.5rem]">Backend Developer</p>
             </div>
           </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={memet} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+            </div>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Akhtar arami Muhammad A</div>
+              <p className="text-gray-200 text-[0.5rem]">Frontend Developer</p>
+            </div>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={fajar} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+            </div>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Fajar Setiawan</div>
+              <p className="text-gray-200 text-[0.5rem]">Frontend Developer</p>
+            </div>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={nopek} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+            </div>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Nova Dwi Cahya</div>
+              <p className="text-gray-200 text-[0.5rem]">Network Engineering</p>
+            </div>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
+            <div className="relative h-36 md:h-40"> 
+              <Image src={bintang} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
+            </div>
+            <div className="px-4 md:px-6 py-3 md:py-4">
+              <div className="font-bold text-xs mb-2 text-white">Bintang Amri Pramana</div>
+              <p className="text-gray-200 text-[0.5rem]">Network Engineering</p>
+            </div>
+          </div>
+
+
           </div>
       </div>
           
@@ -414,7 +445,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='mx-[10%] py-[5%]'>
+        <div id='contact' className='mx-[10%] py-[5%]'>
           <div className='rounded-3xl py-[10%] w-full bg-zinc-500 relative'>
           <div className='text-white font-inter font-semibold absolute top-[55%] left-[19%] transform -translate-x-1/2 -translate-y-1/2' style={{ fontSize: '2.5vw' }}>
                 sija2acc@gmail.com
