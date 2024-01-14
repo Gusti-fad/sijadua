@@ -293,8 +293,8 @@ const Home = () => {
               <Image src={gusti} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Gusti Fadhilah Ahmad</div>
-              <p className="text-gray-200 text-[0.5rem]">Software Developer</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Gusti Fadhilah Ahmad</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Software Developer</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -302,8 +302,8 @@ const Home = () => {
               <Image src={uzan} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Fauzan Rafif Rochman</div>
-              <p className="text-gray-200 text-[0.5rem]">UI / UX Designer</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Fauzan Rafif Rochman</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">UI / UX Designer</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -311,8 +311,8 @@ const Home = () => {
               <Image src={hilmi} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Hilmy Khairul Pratama</div>
-              <p className="text-gray-200 text-[0.5rem]">Cyber Security</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Hilmy Khairul Pratama</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Cyber Security</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -320,8 +320,8 @@ const Home = () => {
               <Image src={hex} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Iqbal Ahnaf</div>
-              <p className="text-gray-200 text-[0.5rem]">Backend Developer</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Iqbal Ahnaf Fadholi</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Backend Developer</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -329,8 +329,8 @@ const Home = () => {
               <Image src={memet} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Akhtar arami Muhammad A</div>
-              <p className="text-gray-200 text-[0.5rem]">Frontend Developer</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Akhtar arami Muhammad A</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Frontend Developer</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -338,8 +338,8 @@ const Home = () => {
               <Image src={fajar} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Fajar Setiawan</div>
-              <p className="text-gray-200 text-[0.5rem]">Frontend Developer</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Fajar Setiawan</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Frontend Developer</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -347,8 +347,8 @@ const Home = () => {
               <Image src={nopek} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Nova Dwi Cahya</div>
-              <p className="text-gray-200 text-[0.5rem]">Network Engineering</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Nova Dwi Cahya</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Network Engineering</p>
             </div>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-500 w-40 h-56 md:w-48 mr-2 mt-1 md:h-64 md:mr-3 md:mt-2">
@@ -356,8 +356,8 @@ const Home = () => {
               <Image src={bintang} alt="learn" className='w-full h-full object-cover object-top rounded-t-2xl grayscale' />
             </div>
             <div className="px-4 md:px-6 py-3 md:py-4">
-              <div className="font-bold text-xs mb-2 text-white">Bintang Amri Pramana</div>
-              <p className="text-gray-200 text-[0.5rem]">Network Engineering</p>
+              <div className="font-bold text-xs mb-2 h-8 flex flex-wrap items-start md:text-[0.9rem] text-white">Bintang Amri Pramana</div>
+              <p className="text-gray-200  md:text-[0.7rem] text-[0.5rem]">Network Engineering</p>
             </div>
           </div>
 
