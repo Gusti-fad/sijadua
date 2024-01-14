@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import logo from '../public/logo.svg'
 import beranda from '../public/beranda3.jpg'
-import about from '../public/about all in.png'
+import about from '../public/aboutallin.png'
 import learn from '../public/learn.svg'
 import journal from '../public/journal.svg'
 import journal1 from '../public/journal1.jpeg'
